@@ -8,9 +8,9 @@ module Boomerang
 end
 
 require 'boomerang'
+Boomerang.setup
 
 class ApplicationController < ActionController::Base
-  include Boomerang::ControllerSupport
   include Rails.application.routes.url_helpers
 end
 
