@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = 'boomerang-rails'
   gem.require_paths = ['lib']
   gem.version       = Boomerang::VERSION
-  gem.add_dependency 'rails', '~>3.0'
+  gem.add_dependency 'rails', '>3.0'
   gem.add_development_dependency 'rake', '~>0.9.2.2'
   gem.add_development_dependency 'rspec-rails', '~>2.7.0'
   gem.add_development_dependency 'mocha'
